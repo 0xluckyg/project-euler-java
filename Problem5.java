@@ -2,9 +2,8 @@ package problem5;
 
 public class Problem5 {
 	public static void main(String[] args) {
-		int i = 2521;
+		int i = 20;
 		int finalNum;
-		boolean flag = false;
 		
 		outerloop:
 		while (true) {
@@ -17,10 +16,8 @@ public class Problem5 {
 					break outerloop;
 				}
 			}
-			i++;
+			i = i + 20;
 		}
-		
 		System.out.println(finalNum);
-		
 	}
 }
