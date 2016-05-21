@@ -1,6 +1,6 @@
 package problem2;
 
-public class problem2 {
+public class Problem2 {
 	public static void main(String[] args) {
 		long fib1 = 1;
 		long fib2 = 2;
